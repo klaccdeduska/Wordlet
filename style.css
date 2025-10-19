@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.Main_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login_button {
+  display: none;
+}
+
+.Defaut_logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#icon-menu {
+  position: absolute;
+  top: 95px;
+  right: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: none;
+}
+
+.avatar_option {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.logo_style {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.folder {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+
+.folder-title {
+  font-size: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cards {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card {
+  width: 120px;
+  height: 80px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.add-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.test-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+
+#login-btn {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#highscores-table {
+  background-color: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin-top: 16px;
+}
