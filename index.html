@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordlet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Main_logo">
+      <img
+        src="https://i.postimg.cc/DZbkcTRq/Chat-GPT-Image-9-2025.png"
+        border="0"
+        width="200"
+      />
+      <div class="login">
+        <button id="login-btn">Login</button>
+        <input
+          class="login_button"
+          type="file"
+          id="avatar-input"
+          accept="image/*"
+        />
+        <img
+          id="avatar"
+          src="https://i.postimg.cc/pLXdc5t3/unnamed-1.jpg"
+          class="Defaut_logo"
+        />
+      </div>
+    </div>
+
+    <div id="icon-menu">
+      <a
+        href="#"
+        class="avatar_option"
+        data-avatar="https://i.postimg.cc/TpJTMsKV/Chat-GPT-Image-25-2025-13-43-51.png"
+      >
+        <img
+          src="https://i.postimg.cc/TpJTMsKV/Chat-GPT-Image-25-2025-13-43-51.png"
+          class="logo_style"
+        />
+      </a>
+      <a
+        href="#"
+        class="avatar_option"
+        data-avatar="https://i.postimg.cc/3yVTF5qT/Chat-GPT-Image-25-2025-13-47-12.png"
+      >
+        <img
+          src="https://i.postimg.cc/3yVTF5qT/Chat-GPT-Image-25-2025-13-47-12.png"
+          class="logo_style"
+        />
+      </a>
+      <a
+        href="#"
+        class="avatar_option"
+        data-avatar="https://i.postimg.cc/hJHk78J4/Chat-GPT-Image-25-2025-13-53-23.png"
+      >
+        <img
+          src="https://i.postimg.cc/hJHk78J4/Chat-GPT-Image-25-2025-13-53-23.png"
+          class="logo_style"
+        />
+      </a>
+    </div>
+
+    <div class="folder">
+      <h2 class="folder-title">English</h2>
+      <div class="cards" id="english-cards"></div>
+      <button class="add-button" data-target="english-cards">Add words</button>
+      <button class="test-button" data-target="english-cards">TEST</button>
+    </div>
+
+    <div class="folder">
+      <h2 class="folder-title">Estonian</h2>
+      <div class="cards" id="estonian-cards"></div>
+      <button class="add-button" data-target="estonian-cards">Add words</button>
+      <button class="test-button" data-target="estonian-cards">TEST</button>
+    </div>
+
+    <div class="folder">
+      <h2 class="folder-title">French</h2>
+      <div class="cards" id="french-cards"></div>
+      <button class="add-button" data-target="french-cards">Add words</button>
+      <button class="test-button" data-target="french-cards">TEST</button>
+    </div>
+
+    <h2>Words Leaderboard</h2>
+    <div id="highscores-table">
+      <p>Loading...</p>
+    </div>
+
+    <div><h2> </h2></div>
+
+    <div>
+      <img
+        src="https://i.postimg.cc/QB3jTNYT/OIP-removebg-preview.png"
+        width="150"
+      />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
